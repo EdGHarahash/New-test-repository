@@ -1,0 +1,73 @@
+.main-pane{
+  margin:0px auto;
+  width:1000px;
+}
+
+/* GENERAL */
+.form-errors{
+  color:#d9534f;
+}
+
+/* PROFILE */
+.profile-box .profile-body{
+  margin-top:30px;
+}
+.profile-box .profile-header{
+  height:450px;
+}
+.profile-box .profile-header .profile-avatar{
+  width:390px;
+}
+.profile-box .profile-header .profile-avatar img{
+  border:4px #5BC0DE solid;
+  border-radius: 50%;
+  height:390px;
+  margin-top:25px;
+  width:390px;
+}
+.profile-box .profile-header .profile-avatar.owner img{
+  border-color:#DF691A;
+}
+.profile-box .profile-header .profile-info{
+  font-size:35px;
+  padding:70px 0px 0px 0px;
+  width:300px;
+}
+.profile-box .profile-header .profile-info.pull-left{
+  text-align: left;
+}
+.profile-box .profile-header .profile-info.pull-right{
+  text-align: right;
+}
+.profile-box .profile-name{
+  font-weight:bold;
+  margin-top:0px;
+  text-align:center;
+}
+
+/* ALL USERS LINK */
+.user-list{
+  
+}
+.user-list .profile-thumbnail{
+  float:left;
+  margin:20px 50px 0px 0px;
+  width:250px;
+}
+.user-list .profile-thumbnail .profile-avatar{
+  border-radius: 50%;
+}
+.user-list .profile-thumbnail img.profile-avatar{
+  display: block;
+  width:250px;
+}
+.user-list .profile-thumbnail .profile-link{
+  display:block;
+  text-decoration:none;
+}
+.user-list .profile-thumbnail .profile-link:hover{
+  text-decoration: none;
+}
+.user-list .profile-thumbnail .profile-name{
+  text-align:center;
+}

@@ -1,0 +1,11 @@
+#Directory options for Apache httpd
+
+#Check if module is turned on.
+<IfModule mod_rewrite.c>
+    # Init module
+    RewriteEngine On
+    # Rewrite only requests to non-existing files
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # Rewrite requests that looks anyway and use some other options
+    RewriteRule ^(.*)$ app.php [QSA,L]
+</IfModule>
